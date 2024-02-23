@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 768px) {
+    * {}
+
+}
+
+li.div1.active {
+    background: #414880;
+    padding: 4px 17px;
+}
+
+.icon .div1 {
+    background: #EEEEEE;
+    margin: 6px 1px;
+    list-style-type: none;
+    display: inline-block;
+    width: 26px;
+    height: 5px;
+    border-radius: 14px;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+    left: 720px;
+    z-index: 3;
+}
+
+img.background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+img.background1 {
+    position: absolute;
+    top: 0;
+    left: 62px;
+    z-index: 1;
+}
+
+.slide1.slide2 img.img-fluid {margin-left: 367px;margin-top: 7px;}
+
+.slide1 p {
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.slide1 a.btn.btn-primary {
+    margin-left: 48px;
+    padding: 13px 23px;
+    border-radius: 30px;
+    background: rgb(255, 100, 174);
+    border: none;
+}
+
+.slide1 h2 {
+    font-size: 70px;
+    margin-left: 38px;
+    font-weight: 600;
+    padding-top: 53px;
+    line-height: 60px;
+}
+
+.sildes .slide1.active {
+    opacity: 1;
+}
+
+.sildes .slide1 {
+    position: absolute;
+    padding-top: 263px;
+    top: -17px;
+    left: 140px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.slide1.slide2 {
+    padding-top: 138px;
+    text-align: center;
+}
+
+.slides.slide1 {
+    margin: 23px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.sildes {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu a.nav-link {
+    margin-top: 8px;
+}
+
+.menu a.btn.btn-primary {
+    font-size: 16px;
+    padding: 15px 42px;
+    border-radius: 71px;
+    background: rgb(255, 100, 174);
+    border: none;
+    margin-left: 22px;
+    margin-right: 37px;
+}
+
+ul.navbar-nav.ms-auto.mt-2.mt-lg-0 {
+    margin-top: 58px;
+    margin-left: 599px;
+}
+
+.menu li.nav-item {
+    margin-left: 42px;
+}
+
+.menu img.img-fluid {
+    width: 250px;
+    height: 63px;
+}
+
+.menu .container {
+    margin: 41px 150px;
+    padding: 0px;
+}
+
+nav.menu.navbar {
+    background: rgba(255, 192, 203, 0);
+}
